@@ -1,0 +1,32 @@
+.hdiv{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.himg{
+    width: 5%;
+    margin-right: 20px;
+    height: 5%;
+}
+
+.hh1{
+    font-size: 3rem;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .hdiv{
+        justify-content: center;
+    }
+
+    .himg{
+        width: 15%;
+        margin-right: 10px;
+        height: 15%;
+    }
+
+    .hh1{
+        font-size: 26px;
+    }
+}

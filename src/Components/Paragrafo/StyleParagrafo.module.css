@@ -1,0 +1,10 @@
+.hdiv{
+    display: flex;
+    align-items: center;
+}
+
+.hdiv p{
+    font-size: 18px;
+    text-align: justify;
+}
+

@@ -1,0 +1,13 @@
+.hdiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    height: 70vh;
+    align-items: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .hdiv{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,45 @@
+.divTexto{
+    border: solid 4px #9F13DD;
+    border-radius: 11px;
+    padding: 0 15px;
+    background-color: #a013dd21;
+    margin: 0 5%;
+}
+
+.divTexto h1{
+    text-align: center;
+    line-height: 70px;
+    font-size: 1.7rem;
+    margin: 0;
+    border-bottom: #F34DA9 solid 1px;
+    background-color: #0000;
+}
+
+
+.divTexto p{
+    text-align: justify;
+    margin: 10px 20px;
+    font-size: 18px;
+    background-color: #0000;
+}
+
+
+@media only screen and (max-width: 800px) {
+   .divTexto{
+        border: solid 2px #9F13DD;
+        margin-bottom: 10px; 
+   } 
+
+   .divTexto h1{
+        font-size: 20px;
+        line-height: 40px;
+   }
+
+   .divTexto p{
+        font-size: 10px;
+        margin-top: 10px;
+        margin: 10px 0 10px 0;
+        
+   }
+
+}

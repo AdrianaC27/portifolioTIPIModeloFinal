@@ -1,0 +1,13 @@
+button{
+    background-color: #f34da900;
+    border: #F34DA9 solid 1px;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+.dvolta{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}

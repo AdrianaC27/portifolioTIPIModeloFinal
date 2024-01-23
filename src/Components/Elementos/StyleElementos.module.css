@@ -1,0 +1,14 @@
+.hdiv img{
+    width: 80px;
+    margin: 10px 0;
+}
+
+.hdiv h1{
+    font-size: 20px;
+}
+
+.hdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

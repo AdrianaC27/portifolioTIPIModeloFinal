@@ -1,0 +1,101 @@
+.dad main{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.txtHome{
+    width: 70%;
+}
+
+.txtHome h1{
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.txtHome span{
+    color: #F34DA9;
+}
+
+a{
+    background: none;
+    color: #fff;
+    border: none;
+    border-right: 1.5px solid #F34DA9;
+    font-size: 1.3rem;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F34DA9;
+}
+
+a:last-child{
+    border:none;
+}
+
+
+/**********************************************************************/
+@media only screen and (max-width: 450px) {
+    .dad{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around;
+        height: 100vh;
+    }
+
+    .dad main {
+        align-items: center;
+        height: auto;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: start;
+        width: 90%;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .txtHome{
+        width: 100%;
+        text-align: center;
+    }
+
+    .txtHome h1 {
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .txtHome h2{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .dadLogo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .dad footer{
+        display: table-column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    a{
+        background: none;
+        color: #fff;
+        border: none;
+        border-bottom: 1.5px solid #F34DA9;
+        font-size: 20px;
+        padding: 10px 30px;
+        width: 70%;
+    }
+}
